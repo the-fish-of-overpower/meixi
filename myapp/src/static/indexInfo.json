@@ -1,0 +1,39 @@
+{
+    "data":[{
+        "type":"男士",
+        "swipeImg" : [
+            "https://img3.meicicdn.com/u/App/indexbanmer/20180301/1119375a977149580bd-750x464.jpg",
+            "https://img3.meicicdn.com/u/App/indexbanmer/20180228/1452045a965194b622e-750x464.jpg"
+        ],
+        "recommend":[
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG"
+        ]
+    },{
+        "type":"女士",
+        "swipeImg" : [
+            "https://img3.meicicdn.com/u/App/indexbanmer/20180301/1119375a977149580bd-750x464.jpg",
+            "https://img3.meicicdn.com/u/App/indexbanmer/20180228/1452045a965194b622e-750x464.jpg"
+        ],
+        "recommend":[
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG"
+        ]
+    },{
+        "type":"家居生活",
+        "swipeImg" : [
+            "https://img3.meicicdn.com/u/App/indexbanmer/20180301/1119375a977149580bd-750x464.jpg",
+            "https://img3.meicicdn.com/u/App/indexbanmer/20180228/1452045a965194b622e-750x464.jpg"
+        ],
+        "recommend":[
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG",
+            "https://img3.meicicdn.com/u/LvProduct/pic/20180209/1708485a7d65207246c-320x384.JPG"
+        ]
+    }]
+}

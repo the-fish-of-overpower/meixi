@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../iconfont/font_iconfont/iconfont.eot');
+    src: url('../../iconfont/font_iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../../iconfont/font_iconfont/iconfont.woff') format('woff'),
+    url('../../iconfont/font_iconfont/iconfont.ttf') format('truetype'),
+    url('../../iconfont/font_iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:.4rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color:#fff;
+    line-height:0.8rem;
+    text-align:center;
+}
+.public-commonWrapper{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    .public-shade{
+        position:fixed;
+        width:100%;
+        height:100%;
+        opacity:0;
+        visibility:hidden;
+        background:#000;
+        transition:1s opacity;
+        z-index:1;
+    }
+    .public-header{
+        position:absolute;
+        width:100%;
+        height:0.8rem;
+        background:#000;
+        top:0;
+        left:0;
+        z-index:2;
+        .public-menu-btn{
+            width:0.8rem;
+            height:0.8rem;
+            position:absolute;
+            border-right:1px solid #ccc;
+            left:0;
+        }
+        .public-other{
+            height:0.8rem;
+            position:absolute;
+            border-left:1px solid #ccc;
+            right:0;
+            .public-other-item{
+                float:left;
+                width:0.8rem;
+                height:0.8rem;
+            }
+        }
+        .public-logo{
+            width:100%;
+            text-align:center;
+            line-height:0.8rem;
+            color:#fff;
+            font-size:.16rem;
+            margin:0;
+        }
+        .public-menu{
+            width:90%;
+            height:11rem;
+            position:absolute;
+            left:0;
+            top:0;
+            background:rgb(56, 54, 54);
+            overflow:hidden;
+            transition:left .5s;
+            .public-menu-title{
+                height:0.7rem;
+                padding:.1rem 0 0 .2rem;
+                background:#000;
+                .public-input-box{
+                    height:.6rem;
+                    width:75%;
+                    position:relative;
+                    .public-menu-input{
+                        height:.6rem;
+                        padding-left:.2rem;
+                        background:#ccc;
+                        border-radius:.5rem;
+                        width:4rem;
+                    }
+                    .search-btn{
+                        width:.5rem;
+                        height:.6rem;
+                        position:absolute;
+                        left:3.6rem;
+                        top:0;
+                        line-height:.6rem;
+                    }
+                }
+                .public-menu-cancel{
+                    width:.5rem;
+                    height:.8rem;
+                    position:absolute;
+                    right:.1rem;
+                    top:0;
+                    color:#fff;
+                    line-height:.8rem;
+                }
+            }
+            .public-menu-list{
+                .public-menu-item{
+                    width:100%;
+                    height:.8rem;
+                    line-height:.8rem;
+                    color:#fff;
+                    padding-left:.2rem;
+                    font-size:.14rem;
+                    border-bottom:1px solid #ccc;
+                }
+                .public-menu-sec-box{
+                    transition:height .5s;
+                    background:rgb(36, 35, 35);
+                    overflow:hidden;
+                    .public-menu-sec-item{
+                        height:.8rem;
+                        line-height:.8rem;
+                        padding-left:.2rem;
+                        color:#fff;
+                        border-bottom:.01rem solid #000;
+                    }
+                }
+            }
+        }
+    }
+    .public-wrapper{
+        padding-top:.8rem;
+        width:100%;
+    }
+}
